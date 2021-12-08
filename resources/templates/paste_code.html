@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <script type="text/javascript" src="/js/xml_to_json.js"></script>
+</head>
+<body>
+<form method="post" action="/api/code/new">
+    <p><textarea id="code_snippet" rows="20" cols="120">// write your code here</textarea></p>
+    <p>Time restriction: <input id="time_restriction" type="text" value="0"/></p>
+    <p>Views restriction: <input id="views_restriction" type="text" value="0"/></p>
+    <button id="send_snippet" type="submit" onclick="send()">Submit</button>
+</form>
+</body>
+</html>

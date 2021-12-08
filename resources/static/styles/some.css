@@ -1,0 +1,11 @@
+#styled_code_snippet {
+    border: 2px solid gray;
+    width: 50vw;
+    background: rgb(239, 239, 239);
+    overflow: auto;
+}
+
+#load_date {
+    color: green;
+    margin: auto;
+}
